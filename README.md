@@ -111,7 +111,7 @@ miner restart
 
 ## Donate / Doar
 
-FearMiner is free and open-source. If it earns you rewards, consider donating.
+FearMiner is free to use (source code is private). If it earns you rewards, consider donating.
 
 | Network | Address |
 |---------|---------|
