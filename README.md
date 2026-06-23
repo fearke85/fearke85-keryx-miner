@@ -1,4 +1,4 @@
-# FearMiner
+# FearMiner Keryx
 
 GPU miner for the [Keryx](https://keryx.network/) network — kHeavyHash Proof-of-Work + OPoI AI inference.  
 Minerador GPU para a rede [Keryx](https://keryx.network/) — Prova de Trabalho kHeavyHash + inferência de IA OPoI.
@@ -11,19 +11,19 @@ Get the latest release at: https://github.com/fearke85/fearke85-keryx-miner/rele
 
 | Platform | File |
 |----------|------|
-| Windows (self-contained, portable) | `fear-miner-v*-windows.zip` |
-| Linux | `fear-miner-v*-linux-amd64.tar.gz` |
-| HiveOS | `fear-miner-v*-hiveos.tgz` |
+| Windows (self-contained, portable) | `fear-miner-keryx-v*-windows.zip` |
+| Linux | `fear-miner-keryx-v*-linux-amd64.tar.gz` |
+| HiveOS | `fear-miner-keryx-v*-hiveos.tgz` |
 
 ---
 
 ## [EN-US] English
 
-FearMiner is a GPU miner for the Keryx network. It combines kHeavyHash PoW with OPoI AI inference on NVIDIA GPUs.
+FearMiner Keryx is a GPU miner for the Keryx network. It combines kHeavyHash PoW with OPoI AI inference on NVIDIA GPUs.
 
 ### Quick Start — Windows
 
-1. Download `fear-miner-v*-windows.zip` from the [latest release](https://github.com/fearke85/fearke85-keryx-miner/releases/latest)
+1. Download `fear-miner-keryx-v*-windows.zip` from the [latest release](https://github.com/fearke85/fearke85-keryx-miner/releases/latest)
 2. Extract anywhere
 3. Run `allow-in-defender.bat` once (whitelists the unsigned exe in Windows Defender)
 4. Run `start-miner.bat` — wizard asks SOLO/POOL, wallet address, and server
@@ -34,15 +34,15 @@ The zip includes everything: miner, CUDA 12.x runtime, plugins, launchers. No Do
 ### Quick Start — Linux
 
 ```bash
-tar xzf fear-miner-v*-linux-amd64.tar.gz
-cd fear-miner-v*
+tar xzf fear-miner-keryx-v*-linux-amd64.tar.gz
+cd fear-miner-keryx-v*
 ./keryx-miner -a YOUR_WALLET -s POOL_ADDRESS
 ```
 
 ### Quick Start — HiveOS
 
 ```bash
-tar xzf fear-miner-v*-hiveos.tgz -C /hive/miners/custom/
+tar xzf fear-miner-keryx-v*-hiveos.tgz -C /hive/miners/custom/
 miner restart
 ```
 
@@ -65,11 +65,11 @@ miner restart
 
 ## [PT-BR] Português
 
-O FearMiner é um minerador GPU para a rede Keryx. Combina PoW kHeavyHash com inferência de IA OPoI em GPUs NVIDIA.
+O FearMiner Keryx é um minerador GPU para a rede Keryx. Combina PoW kHeavyHash com inferência de IA OPoI em GPUs NVIDIA.
 
 ### Início Rápido — Windows
 
-1. Baixe `fear-miner-v*-windows.zip` da [última release](https://github.com/fearke85/fearke85-keryx-miner/releases/latest)
+1. Baixe `fear-miner-keryx-v*-windows.zip` da [última release](https://github.com/fearke85/fearke85-keryx-miner/releases/latest)
 2. Extraia em qualquer pasta
 3. Rode `allow-in-defender.bat` uma vez (libera o exe não assinado no Windows Defender)
 4. Rode `start-miner.bat` — wizard pergunta SOLO/POOL, carteira e servidor
@@ -80,15 +80,15 @@ O zip inclui tudo: minerador, runtime CUDA 12.x, plugins, launchers. Sem Docker,
 ### Início Rápido — Linux
 
 ```bash
-tar xzf fear-miner-v*-linux-amd64.tar.gz
-cd fear-miner-v*
+tar xzf fear-miner-keryx-v*-linux-amd64.tar.gz
+cd fear-miner-keryx-v*
 ./keryx-miner -a SUA_CARTEIRA -s ENDERECO_POOL
 ```
 
 ### Início Rápido — HiveOS
 
 ```bash
-tar xzf fear-miner-v*-hiveos.tgz -C /hive/miners/custom/
+tar xzf fear-miner-keryx-v*-hiveos.tgz -C /hive/miners/custom/
 miner restart
 ```
 
@@ -111,7 +111,7 @@ miner restart
 
 ## Donate / Doar
 
-FearMiner is free to use (source code is private). If it earns you rewards, consider donating.
+FearMiner Keryx is free to use (source code is private). If it earns you rewards, consider donating.
 
 | Network | Address |
 |---------|---------|
